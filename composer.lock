@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "562dafcb41b4408e8be14f20844ba534",
+    "content-hash": "baa25bfc8ef9c911f3856463918bc0e5",
     "packages": [
         {
             "name": "jamesmoss/flywheel",
@@ -60,20 +60,20 @@
                 "file",
                 "flat"
             ],
-            "time": "2014-01-14 20:17:28"
+            "time": "2014-01-14T20:17:28+00:00"
         },
         {
             "name": "mpratt/relativetime",
-            "version": "1.0",
+            "version": "1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpratt/RelativeTime.git",
-                "reference": "5dd7078d2bc830227c1f5a0081c68c323fb18555"
+                "reference": "3dc1efd96c8edbd0fe9e5cdb423ca31428b9dbb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpratt/RelativeTime/zipball/5dd7078d2bc830227c1f5a0081c68c323fb18555",
-                "reference": "5dd7078d2bc830227c1f5a0081c68c323fb18555",
+                "url": "https://api.github.com/repos/mpratt/RelativeTime/zipball/3dc1efd96c8edbd0fe9e5cdb423ca31428b9dbb7",
+                "reference": "3dc1efd96c8edbd0fe9e5cdb423ca31428b9dbb7",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "time",
                 "time-ago"
             ],
-            "time": "2013-09-23 22:51:48"
+            "time": "2015-12-24T12:43:04+00:00"
         }
     ],
     "packages-dev": [],
@@ -116,6 +116,7 @@
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
