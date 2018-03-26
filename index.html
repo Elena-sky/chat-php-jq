@@ -18,35 +18,35 @@
     </head>
     
     <body>
-    <div class="container">
-        <div class="row">
-     
-        <div class="col-sm-12 align-self-center">
-            
-            <h1 class="text-center">Chat</h1>
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="row">
 
-            <ul class="message-content"></ul>
+                    <h1 class="text-center">Chat</h1>
 
-            <div class="panel panel-info chat-form">
-                <div class="panel-heading">
-                    <h2>Write a message </h2>
+                    <div>
+                        <ul class="messages message-content alert alert-warning"></ul>
+                    </div>
+
+                    <div class="panel panel-info chat-form">
+                        <div class="panel-heading">
+                            <h2>Write a message </h2>
+                        </div>
+
+                        <form class="panel-body" action="./publish.php" method="post">
+                            <label for="user-name">nickname </label>
+                            <input class="form-control" type="text" id="user-name" name="name"/>
+
+                            <label for="user-comment">message </label>
+                            <textarea class="form-control" id="user-comment" name="comment" maxlength='240'></textarea>
+                            <br>
+                            <input class="btn btn-success" type="submit" value="Submit!"/>
+                        </form>
+                    </div>
+
                 </div>
-
-                <form class="panel-body" action="./publish.php" method="post">
-                    <label for="user-name">nickname </label>
-                    <input class="form-control" type="text" id="user-name" name="name"/>
-
-                    <label for="user-comment">message </label>
-                    <textarea class="form-control" id="user-comment" name="comment" maxlength='240'></textarea>
-                    <br>
-                    <input class="btn btn-success" type="submit" value="Submit!"/>
-                </form>
             </div>
-            
         </div>
-        </div>
-
-    </div>
         <!-- Include jQuery and the EmojiOne library -->
 
         <script src="./assets/js/script.js"></script>

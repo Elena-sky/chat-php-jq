@@ -3,7 +3,8 @@
     "authors": [
         {
             "name": "alena",
-            "email": "alenasoroka1993@gmail.com"
+            "email": "alenasoroka1993@gmail.com",
+            "git": "https://github.com/Elena-sky/chat-php-jq"
         }
     ],
     "require": {

@@ -74,9 +74,8 @@ $(function(){
         ul.empty();
 
         data.forEach(function(d){
-            ul.append('<li class="alert alert-success">'+
-                '<strong>' + d.name + '</strong>'+
-                '<p>' + d.text + '</p>'+
+            ul.append('<li class="well">'+
+                '<strong>' + d.name + ' : </strong>' + d.text +
                 '<p>' + d.timeAgo + '</p>'+
             '</li>');
         });
