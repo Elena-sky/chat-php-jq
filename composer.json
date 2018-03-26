@@ -1,0 +1,13 @@
+{
+    "name": "alena/chat",
+    "authors": [
+        {
+            "name": "alena",
+            "email": "alenasoroka1993@gmail.com"
+        }
+    ],
+    "require": {
+         "jamesmoss/flywheel": "0.1.*",
+         "mpratt/relativetime": ">=1.0"
+    }
+}

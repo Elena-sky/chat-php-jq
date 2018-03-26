@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Chat</title>
+        
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    
+    <body>
+    <div class="container">
+        <div class="row">
+     
+        <div class="col-sm-12 align-self-center">
+            
+            <h1 class="text-center">Chat</h1>
+
+            <ul class="message-content"></ul>
+
+            <div class="panel panel-info chat-form">
+                <div class="panel-heading">
+                    <h2>Write a message </h2>
+                </div>
+
+                <form class="panel-body" action="./publish.php" method="post">
+                    <label for="user-name">nickname </label>
+                    <input class="form-control" type="text" id="user-name" name="name"/>
+
+                    <label for="user-comment">message </label>
+                    <textarea class="form-control" id="user-comment" name="comment" maxlength='240'></textarea>
+                    <br>
+                    <input class="btn btn-success" type="submit" value="Submit!"/>
+                </form>
+            </div>
+            
+        </div>
+        </div>
+
+    </div>
+        <!-- Include jQuery and the EmojiOne library -->
+
+        <script src="./assets/js/script.js"></script>
+
+    </body>
+    
+</html>
